@@ -1,3 +1,57 @@
-body {
+@charset "utf-8";
 
+body {
+	background-color: gold;
 }
+
+img {
+	width: 60%;
+}
+
+img:hover {
+	border: solid 5px purple;
+	width: 400px;
+	border-radius: 70%;
+		
+}
+
+h2 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: black;
+	word-spacing: 1px;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px purple;
+    
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+} 
